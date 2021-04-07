@@ -47,6 +47,9 @@ This script reports the summary statistics using the FastQC and STAR alignment r
 ### analyst_pt1.R
 This script performs limma for each of the samples, produces scatter plots and histograms of fold changes vs nominal P-values.
 
+### analyst_pt2.2.R
+This scrip performs concordance analyses and bar plot of all concordance analyses.
+
 ## Programmer Files
 
 ### Part3Code.R
