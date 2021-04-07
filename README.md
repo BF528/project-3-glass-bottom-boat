@@ -50,17 +50,25 @@ This script performs limma for each of the samples, produces scatter plots and h
 ### analyst_pt2.2.R
 This scrip performs concordance analyses and bar plot of all concordance analyses.
 
-## Programmer Files
+## Biologist Contributions
 
-### Part3Code.R
 
-*Read counting with Feature Counts
+### Tables of enriched pathways
+ 
+3 tables enriched pathways identified with your DE genes from each of our analyses.
 
-### Part4Code.R
+* cyto_table.csv
 
-*RNA-Seq Differential Expression Analysis with DESeq2
+* car_table.csv
 
-### Part4Plots.R
+* ahr_table.csv
 
-*Code for creating histograms and scatter plots
+### Heatmap & Heatmap code
+
+A clustered heatmap of our normalized counts
+
+* heatmap_2.R
+
+* plot_zoom.png
+
 
