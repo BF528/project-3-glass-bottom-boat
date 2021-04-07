@@ -47,15 +47,17 @@ This script reports the summary statistics using the FastQC and STAR alignment r
 ### analyst_pt1.R
 This script performs limma for each of the samples, produces scatter plots and histograms of fold changes vs nominal P-values.
 
-##Part3Code.R
+## Programmer Files
+
+### Part3Code.R
 
 *Read counting with Feature Counts
 
-##Part4Code.R
+### Part4Code.R
 
 *RNA-Seq Differential Expression Analysis with DESeq2
 
-##Part4Plots.R
+### Part4Plots.R
 
 *Code for creating histograms and scatter plots
 
