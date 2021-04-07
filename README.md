@@ -22,25 +22,30 @@ Brad Fortunato (Biologist)
 
 This script aligns the paired end reads to the reference genome where input is in the form of .fastq files and output as .bam files with alignment statistics.
 
-*  Dependencies: STAR Aligner
+* Item 1 Dependencies: STAR Aligner
 
-*  Input: There are 3 positional arguments out of which 1st and 2nd take the 1st and 2nd read of paired end respectively and GENOMEDIR in the script specifies the path of reference genome to which the reads are aligned.
+* Item 2 Input: There are 3 positional arguments out of which 1st and 2nd take the 1st and 2nd read of paired end respectively and GENOMEDIR in the script specifies the path of reference genome to which the reads are aligned.
 
-*  Execution:`qsub STAR.qsub SRR1177XXX_1.fastq.gz SRR1177XXX_2.fastq.gz`(where XXX depends on the sample number)
+* Item 3 Execution:`qsub STAR.qsub SRR1177XXX_1.fastq.gz SRR1177XXX_2.fastq.gz`(where XXX depends on the sample number)
 
-*  Output: The 3rd positional argument defines the name of the output file i.e. star_output in which the outputs are stored as .bam files.
+* Item 4 Output: The 3rd positional argument defines the name of the output file i.e. star_output in which the outputs are stored as .bam files.
 
 ### multiqc.qsub
 
 This script reports the summary statistics using the FastQC and STAR alignment results generated earlier.
 
-*  Dependencies: multiqc
+* Item 1 Dependencies: multiqc
 
-*  Input: STAR alignment output (.bam files) and fastq files
+* Item 2 Input: STAR alignment output (.bam files) and fastq files
 
-*  Excecution: `qsub multiqc.qsub`
+* Item 3 Excecution: `qsub multiqc.qsub`
 
-*  Output: Multiqc output is in the form of an HTML report which is displayed in the browser (multiqc_report.html)
+* Item 4 Output: Multiqc output is in the form of an HTML report which is displayed in the browser (multiqc_report.html)
+
+## Programs from Analyst
+
+### analyst_pt1.R
+This script performs limma for each of the samples, produces scatter plots and histograms of fold changes vs nominal P-values.
 
 
 
