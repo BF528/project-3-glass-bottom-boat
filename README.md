@@ -50,6 +50,18 @@ This script performs limma for each of the samples, produces scatter plots and h
 ### analyst_pt2.2.R
 This scrip performs concordance analyses and bar plot of all concordance analyses.
 
+## Programmer Files
+
+### Part3Code.R
+Read Counting with FeatureCounts
+
+### Part4Code.R
+Differential Expression with DESeq2
+
+### Part4Plots.R
+Code for histograms and scatterplots
+
+
 ## Biologist Contributions
 
 
